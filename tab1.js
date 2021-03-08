@@ -8,12 +8,12 @@ $(document).ready(function () {
       $('textarea').val($('textarea').val() + v)
     },
   )
-
+    // Añadimos comentario
   //clicking equal sign evaluates the textarea
   $('#equal').click(function () {
     $('textarea').val(eval($('textarea').val()))
   })
-
+  //Probando Pull Request
   $('#clear').click(function () {
     $('textarea').val('')
   })
